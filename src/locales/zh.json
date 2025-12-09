@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "features": "功能",
+    "safety": "安全",
+    "contact": "联系",
+    "language": "语言",
+    "login": "登录",
+    "profile": "个人资料"
+  },
+  "hero": {
+    "title": "您值得信赖的 AI 医疗助手。",
+    "subtitle": "准确、安全，随时为您的健康决策提供指导。",
+    "start": "开始咨询",
+    "learn": "Mediro 如何工作"
+  },
+  "about": {
+    "title": "关于Mediro",
+    "subtitle": "为什么相信Mediro来维护你的健康",
+    "items": [
+      {
+        "title": "AI驱动的准确性",
+        "description": "经过广泛医疗数据训练的先进机器学习模型。",
+        "icon": "🧠"
+      },
+      {
+        "title": "医学安全标准",
+        "description": "按照严格的医学安全协议和法规设计。",
+        "icon": "✅"
+      },
+      {
+        "title": "隐私优先",
+        "description": "你的健康数据被加密并受企业级安全保护。",
+        "icon": "🔐"
+      },
+      {
+        "title": "全球可用",
+        "description": "全天24小时支持多种语言，服务全球患者。",
+        "icon": "🌐"
+      },
+      {
+        "title": "即时支持",
+        "description": "无需等待预约，立即获得医疗指导。",
+        "icon": "⚡"
+      },
+      {
+        "title": "受信于千万用户",
+        "description": "全球医疗专业人士和患者使用并信任。",
+        "icon": "⭐"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "subtitle": "三个简单步骤，快速获得帮助",
+    "steps": [
+      { "number": "01", "title": "描述您的症状", "description": "提供症状、病史和相关详情", "icon": "📝" },
+      { "number": "02", "title": "AI 分析", "description": "我们的医疗 AI 会仔细评估您的信息", "icon": "🤖" },
+      { "number": "03", "title": "获取建议", "description": "获得个性化建议与下一步指导", "icon": "💡" }
+    ]
+  },
+  "features": {
+    "title": "核心功能",
+    "subtitle": "帮助您做出更好的健康决定",
+    "items": [
+      { "title": "极速分析", "description": "AI 驱动的即时医学分析", "icon": "⚡" },
+      { "title": "安全可信", "description": "加密保护与严格的安全标准", "icon": "🔒" },
+      { "title": "全球可用", "description": "全天 24 小时，从任何地点访问", "icon": "🌍" },
+      { "title": "性价比高", "description": "负担得起的医疗建议", "icon": "💰" },
+      { "title": "高精度", "description": "基于最新医学证据", "icon": "🎯" },
+      { "title": "移动优先", "description": "在手机和平板上都有出色体验", "icon": "📱" }
+    ]
+  },
+  "testimonials": {
+    "title": "用户评价",
+    "subtitle": "看看我们如何帮助了真实的人",
+    "reviews": [
+      { "text": "Mediro 帮助我快速判断症状，建议很实用。", "author": "李女士", "role": "患者", "location": "北京", "age": "32", "rating": 5 },
+      { "text": "界面友好且可靠，我推荐给我的同事。", "author": "王医生", "role": "医生", "location": "上海", "age": "48", "rating": 5 },
+      { "text": "这是我用过的最好用的健康应用，快速且有帮助。", "author": "小陈", "role": "患者", "location": "广州", "age": "26", "rating": 5 },
+      { "text": "改变了医疗咨询的可及性，非常有价值。", "author": "张教授", "role": "医学研究员", "location": "深圳", "age": "55", "rating": 5 }
+    ],
+    "stats": {
+      "users": "50K+ 用户",
+      "satisfaction": "98% 满意度",
+      "stories": "15K+ 成功案例"
+    }
+  },
+  "healthNews": {
+    "title": "最新健康资讯",
+    "subtitle": "了解最新医疗新闻和健康发现",
+    "articles": [
+      {
+        "title": "医疗保健中的人工智能：改变患者诊断",
+        "description": "人工智能的最新进展正在彻底改变医生诊断疾病的方式，准确率超过传统方法。",
+        "date": "2025年12月5日",
+        "source": "医学杂志",
+        "url": "#",
+        "category": "人工智能与技术"
+      },
+      {
+        "title": "发布新的心脏健康指南",
+        "description": "领先的心脏病专家更新了预防心脏病的建议，强调生活方式的改变和早期发现。",
+        "date": "2025年12月3日",
+        "source": "世界卫生组织",
+        "url": "#",
+        "category": "心脏病学"
+      },
+      {
+        "title": "远程医疗的采用持续增长",
+        "description": "虚拟医疗咨询已成为主流，患者报告高满意率和改善的专家访问。",
+        "date": "2025年12月1日",
+        "source": "今日健康",
+        "url": "#",
+        "category": "数字健康"
+      }
+    ]
+  },
+
+  "safety": {
+    "badge": "安全第一",
+    "title": "您的安全是我们的首要任务",
+    "subtitle": "了解何时以及如何负责任地使用Mediro",
+    "importantTitle": "重要通知",
+    "importantText": "Mediro是一个由AI驱动的健康助手，旨在提供一般信息和指导。它不能替代专业医疗建议、诊断或治疗。对于医疗问题，请始终咨询合格的医疗保健专业人员。",
+    "whenToUseTitle": "何时使用Mediro",
+    "whenToUse": [
+      "一般健康信息和教育",
+      "了解症状和可能的原因",
+      "随时跟踪您的健康状况",
+      "为您的医生准备问题",
+      "非紧急健康指导"
+    ],
+    "whenNotToUseTitle": "何时不使用Mediro",
+    "whenNotToUse": [
+      "危及生命的紧急情况或严重症状",
+      "胸痛、呼吸困难或中风症状",
+      "严重受伤、出血或创伤",
+      "过敏反应或中毒",
+      "任何需要立即就医的情况"
+    ],
+    "emergencyTitle": "医疗紧急情况？",
+    "emergencyText": "立即致电紧急服务",
+    "emergencyNumbers": "120 / 110",
+    "emergencyNote": "中国紧急电话号码",
+    "privacyTitle": "隐私和数据安全",
+    "privacyPoints": [
+      {"title": "端到端加密", "description": "您的所有健康数据都经过加密并安全存储"},
+      {"title": "符合HIPAA标准", "description": "我们遵循严格的医疗数据保护标准"},
+      {"title": "您的数据，您的控制", "description": "您拥有您的数据并可以随时删除它"}
+    ],
+    "disclaimerTitle": "医疗免责声明",
+    "disclaimerText": "Mediro提供的信息仅用于教育目的，不应被视为医疗建议。对于任何有关医疗状况的问题，请始终咨询您的医生或其他合格的医疗保健提供者。切勿因在Mediro上阅读的内容而忽视专业医疗建议或延迟寻求医疗建议。"
+  },
+
+  "login": {
+    "title": "欢迎来到 Mediro",
+    "subtitle": "登录以访问您的健康档案",
+    "continueWithGoogle": "使用 Google 继续",
+    "or": "或继续使用",
+    "email": "电子邮件",
+    "phone": "电话",
+    "emailLabel": "电子邮件地址",
+    "emailPlaceholder": "输入您的电子邮件",
+    "phoneLabel": "电话号码",
+    "phonePlaceholder": "+86 138 0000 0000",
+    "sendOTP": "发送验证码",
+    "sending": "发送中...",
+    "otpSent": "验证码发送成功！",
+    "otpLabel": "输入验证码",
+    "otpPlaceholder": "000000",
+    "verify": "验证并登录",
+    "verifying": "验证中...",
+    "success": "登录成功！",
+    "invalidOTP": "验证码无效。请重试。",
+    "backToInput": "← 更改邮箱/电话",
+    "securityNote": "我们将发送一次性密码以验证您的身份。您的数据已加密并安全。"
+  },
+  "profile": {
+    "title": "你的个人资料",
+    "subtitle": "管理你的健康信息",
+    "personalInfo": "个人信息",
+    "location": "位置",
+    "healthInfo": "健康信息",
+    "emergency": "紧急联系人",
+    "name": "全名",
+    "namePlaceholder": "输入你的全名",
+    "age": "年龄",
+    "agePlaceholder": "输入你的年龄",
+    "gender": "性别",
+    "genderPlaceholder": "选择性别",
+    "male": "男性",
+    "female": "女性",
+    "other": "其他",
+    "email": "电子邮件地址",
+    "emailPlaceholder": "your.email@example.com",
+    "phone": "电话号码",
+    "phonePlaceholder": "+86 138 0000 0000",
+    "country": "国家",
+    "countryPlaceholder": "输入您的国家",
+    "state": "州/省",
+    "statePlaceholder": "输入您的州/省",
+    "bloodType": "血型",
+    "bloodTypePlaceholder": "选择",
+    "height": "身高",
+    "heightPlaceholder": "cm",
+    "weight": "体重",
+    "weightPlaceholder": "kg",
+    "conditions": "医疗状况",
+    "conditionsPlaceholder": "列出任何现有的医疗状况",
+    "allergies": "过敏史",
+    "allergiesPlaceholder": "列出任何已知的过敏",
+    "medications": "当前用药",
+    "medicationsPlaceholder": "列出您正在服用的药物",
+    "emergencyContact": "紧急联系人",
+    "emergencyContactPlaceholder": "姓名和电话号码",
+    "save": "保存资料",
+    "saved": "资料保存成功！",
+    "confirmDelete": "你确定要删除你的资料吗？",
+    "deleted": "资料删除成功！",
+    "securityTitle": "隐私和安全",
+    "securityNote": "所有个人资料数据都本地存储在你的设备上用于此演示"
+  },
+  "chat": {
+    "title": "医疗咨询",
+    "subtitle": "人工智能健康助手",
+    "emptyTitle": "开始你的咨询",
+    "emptySubtitle": "描述你的症状或上传医疗图像以获得即时AI健康洞察",
+    "feature1": "输入症状",
+    "feature2": "上传图像",
+    "feature3": "语音输入",
+    "feature4": "即时响应",
+    "placeholder": "描述你的症状…",
+    "uploadImage": "上传图像",
+    "recordingStart": "按住录音",
+    "recordingStop": "录音中...",
+    "imageAttached": "图像已附加",
+    "imageReady": "准备发送",
+    "send": "发送"
+  },
+  "cta": {
+    "visit_app": "访问我们的应用 →",
+    "continue": "在我们的应用上继续您的体验"
+  },
+  "footer": {
+    "privacy": "隐私",
+    "terms": "条款",
+    "contact": "联系"
+  },
+  "safetyNotice": "Mediro提供AI辅助指导，不是专业医疗诊断的替代品。如有紧急情况，请联系当地紧急服务。"
+}

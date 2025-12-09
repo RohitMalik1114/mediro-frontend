@@ -1,0 +1,267 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "features": "Funktionen",
+    "safety": "Sicherheit",
+    "contact": "Kontakt",
+    "language": "Sprache",
+    "login": "Anmelden",
+    "profile": "Profil"
+  },
+  "hero": {
+    "title": "Dein vertrauenswürdiger KI-Medizinassistent.",
+    "subtitle": "Präzise. Sicher. Immer verfügbar, um deine Gesundheitsentscheidungen zu unterstützen.",
+    "start": "Beratung starten",
+    "learn": "Wie Mediro funktioniert"
+  },
+  "about": {
+    "title": "Über Mediro",
+    "subtitle": "Warum Mediro für deine Gesundheit vertrauen",
+    "items": [
+      {
+        "title": "KI-gestützte Präzision",
+        "description": "Fortgeschrittene Machine-Learning-Modelle trainiert mit umfassenden medizinischen Daten.",
+        "icon": "🧠"
+      },
+      {
+        "title": "Medizinische Sicherheitsstandards",
+        "description": "Nach strikten medizinischen Sicherheitsprotokollen und Vorschriften entwickelt.",
+        "icon": "✅"
+      },
+      {
+        "title": "Datenschutz an Erster Stelle",
+        "description": "Deine Gesundheitsdaten sind verschlüsselt und mit Enterprise-Sicherheit geschützt.",
+        "icon": "🔐"
+      },
+      {
+        "title": "Globaler Zugang",
+        "description": "24/7 in mehreren Sprachen für Patienten weltweit verfügbar.",
+        "icon": "🌐"
+      },
+      {
+        "title": "Sofortige Unterstützung",
+        "description": "Erhalte sofort medizinische Beratung, ohne auf Termine zu warten.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Von Tausenden Vertraut",
+        "description": "Von Gesundheitsfachleuten und Patienten weltweit genutzt und vertraut.",
+        "icon": "⭐"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Wie es funktioniert",
+    "subtitle": "Drei einfache Schritte zu schneller Hilfe",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Beschreibe deine Symptome",
+        "description": "Teile Symptome, Vorgeschichte und relevante Details mit",
+        "icon": "📝"
+      },
+      {
+        "number": "02",
+        "title": "KI-Analyse",
+        "description": "Unsere medizinische KI wertet die Angaben sorgfältig aus",
+        "icon": "🤖"
+      },
+      {
+        "number": "03",
+        "title": "Erhalte Empfehlungen",
+        "description": "Bekomme personalisierte Hinweise und nächste Schritte",
+        "icon": "💡"
+      }
+    ]
+  },
+  "features": {
+    "title": "Unsere Funktionen",
+    "subtitle": "Wichtige Tools für bessere Entscheidungen",
+    "items": [
+      { "title": "Blitzschnelle Analyse", "description": "Sofortige KI-gestützte medizinische Analyse", "icon": "⚡" },
+      { "title": "Sicher & Vertrauenswürdig", "description": "Verschlüsselung und strenge Sicherheitsstandards", "icon": "🔒" },
+      { "title": "Weltweit zugänglich", "description": "24/7 Zugriff von überall", "icon": "🌍" },
+      { "title": "Kosteneffizient", "description": "Erschwingliche medizinische Beratung", "icon": "💰" },
+      { "title": "Hochgenau", "description": "Basierend auf aktuellen medizinischen Erkenntnissen", "icon": "🎯" },
+      { "title": "Mobil optimiert", "description": "Nahtlose Erfahrung auf Smartphones und Tablets", "icon": "📱" }
+    ]
+  },
+  "testimonials": {
+    "title": "Was Nutzer sagen",
+    "subtitle": "Erfahrungen von Menschen, denen wir geholfen haben",
+    "reviews": [
+      { "text": "Mediro hat mir bei der Einschätzung meiner Symptome schnell und präzise geholfen.", "author": "Maria H.", "role": "Patientin", "location": "München", "age": "35", "rating": 5 },
+      { "text": "Einfach zu bedienen und verlässlich – ich empfehle es meinen Kollegen.", "author": "Dr. Klaus M.", "role": "Arzt", "location": "Berlin", "age": "50", "rating": 5 },
+      { "text": "Sehr hilfreiche App: schnell, klar und unterstützend.", "author": "Anna S.", "role": "Patientin", "location": "Hamburg", "age": "29", "rating": 5 },
+      { "text": "Verändert die Zugänglichkeit medizinischer Beratung zum Positiven.", "author": "Prof. David K.", "role": "Medizinischer Forscher", "location": "Köln", "age": "58", "rating": 5 }
+    ],
+    "stats": {
+      "users": "50K+ Benutzer",
+      "satisfaction": "98% Zufriedenheit",
+      "stories": "15K+ Erfolgsgeschichten"
+    }
+  },
+  "healthNews": {
+    "title": "Aktuelle Gesundheitsnachrichten",
+    "subtitle": "Bleiben Sie informiert über die neuesten medizinischen Nachrichten und Gesundheitsentdeckungen",
+    "articles": [
+      {
+        "title": "KI im Gesundheitswesen: Transformation der Patientendiagnose",
+        "description": "Jüngste Fortschritte in der künstlichen Intelligenz revolutionieren, wie Ärzte Krankheiten diagnostizieren.",
+        "date": "5. Dez, 2025",
+        "source": "Medizinische Zeitschrift",
+        "url": "#",
+        "category": "KI & Technologie"
+      },
+      {
+        "title": "Neue Richtlinien für Herzgesundheit veröffentlicht",
+        "description": "Führende Kardiologen haben Empfehlungen zur Vorbeugung von Herzerkrankungen aktualisiert.",
+        "date": "3. Dez, 2025",
+        "source": "WHO",
+        "url": "#",
+        "category": "Kardiologie"
+      },
+      {
+        "title": "Telemedizin-Akzeptanz wächst weiter",
+        "description": "Virtuelle Gesundheitsberatungen sind zum Mainstream geworden, mit hohen Zufriedenheitsraten.",
+        "date": "1. Dez, 2025",
+        "source": "Gesundheit Heute",
+        "url": "#",
+        "category": "Digitale Gesundheit"
+      }
+    ]
+  },
+
+  "safety": {
+    "badge": "Sicherheit Zuerst",
+    "title": "Ihre Sicherheit ist Unsere Priorität",
+    "subtitle": "Verstehen, wann und wie Mediro verantwortungsvoll zu verwenden ist",
+    "importantTitle": "Wichtiger Hinweis",
+    "importantText": "Mediro ist ein KI-gestützter Gesundheitsassistent, der allgemeine Informationen und Anleitungen bereitstellt. Es ist KEIN Ersatz für professionelle medizinische Beratung, Diagnose oder Behandlung. Konsultieren Sie bei medizinischen Anliegen immer qualifizierte Gesundheitsfachkräfte.",
+    "whenToUseTitle": "Wann Mediro zu Verwenden ist",
+    "whenToUse": [
+      "Allgemeine Gesundheitsinformationen und Aufklärung",
+      "Symptome und mögliche Ursachen verstehen",
+      "Ihre Gesundheitszustände im Laufe der Zeit verfolgen",
+      "Fragen für Ihren Arzt vorbereiten",
+      "Nicht-dringende Gesundheitsberatung"
+    ],
+    "whenNotToUseTitle": "Wann Mediro NICHT zu Verwenden ist",
+    "whenNotToUse": [
+      "Lebensbedrohliche Notfälle oder schwere Symptome",
+      "Brustschmerzen, Atembeschwerden oder Schlaganfallsymptome",
+      "Schwere Verletzungen, Blutungen oder Traumata",
+      "Allergische Reaktionen oder Vergiftungen",
+      "Jeder Zustand, der sofortige medizinische Aufmerksamkeit erfordert"
+    ],
+    "emergencyTitle": "Medizinischer Notfall?",
+    "emergencyText": "Rufen Sie sofort den Rettungsdienst an",
+    "emergencyNumbers": "112 / 110",
+    "emergencyNote": "Deutschland / Europa",
+    "privacyTitle": "Datenschutz und Datensicherheit",
+    "privacyPoints": [
+      {"title": "Ende-zu-Ende-Verschlüsselung", "description": "Alle Ihre Gesundheitsdaten sind verschlüsselt und sicher gespeichert"},
+      {"title": "HIPAA-Konform", "description": "Wir befolgen strenge Datenschutzstandards im Gesundheitswesen"},
+      {"title": "Ihre Daten, Ihre Kontrolle", "description": "Sie besitzen Ihre Daten und können sie jederzeit löschen"}
+    ],
+    "disclaimerTitle": "Medizinischer Haftungsausschluss",
+    "disclaimerText": "Die von Mediro bereitgestellten Informationen dienen nur zu Bildungszwecken und sollten nicht als medizinischer Rat betrachtet werden. Suchen Sie immer den Rat Ihres Arztes oder eines anderen qualifizierten Gesundheitsdienstleisters mit Fragen zu einer Erkrankung. Ignorieren Sie niemals professionellen medizinischen Rat oder verzögern Sie die Inanspruchnahme aufgrund von etwas, das Sie auf Mediro gelesen haben."
+  },
+
+  "login": {
+    "title": "Willkommen bei Mediro",
+    "subtitle": "Melde dich an, um auf dein Gesundheitsprofil zuzugreifen",
+    "continueWithGoogle": "Mit Google fortfahren",
+    "or": "Oder fortfahren mit",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "Gib deine E-Mail ein",
+    "phoneLabel": "Telefonnummer",
+    "phonePlaceholder": "+49 (170) 000-0000",
+    "sendOTP": "OTP senden",
+    "sending": "Wird gesendet...",
+    "otpSent": "OTP erfolgreich gesendet!",
+    "otpLabel": "OTP eingeben",
+    "otpPlaceholder": "000000",
+    "verify": "Verifizieren & Anmelden",
+    "verifying": "Wird verifiziert...",
+    "success": "Anmeldung erfolgreich!",
+    "invalidOTP": "Ungültiges OTP. Bitte versuche es erneut.",
+    "backToInput": "← E-Mail/Telefon ändern",
+    "securityNote": "Wir senden dir ein Einmalpasswort zur Verifizierung deiner Identität. Deine Daten sind verschlüsselt und sicher."
+  },
+  "profile": {
+    "title": "Dein Profil",
+    "subtitle": "Verwalte deine Gesundheitsinformationen",
+    "personalInfo": "Persönliche Informationen",
+    "location": "Standort",
+    "healthInfo": "Gesundheitsinformationen",
+    "emergency": "Notfallkontakt",
+    "name": "Vollständiger Name",
+    "namePlaceholder": "Gib deinen vollständigen Namen ein",
+    "age": "Alter",
+    "agePlaceholder": "Gib dein Alter ein",
+    "gender": "Geschlecht",
+    "genderPlaceholder": "Geschlecht auswählen",
+    "male": "Männlich",
+    "female": "Weiblich",
+    "other": "Andere",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "deine.email@beispiel.de",
+    "phone": "Telefonnummer",
+    "phonePlaceholder": "+49 (170) 000-0000",
+    "country": "Land",
+    "countryPlaceholder": "Gib dein Land ein",
+    "state": "Bundesland/Region",
+    "statePlaceholder": "Gib dein Bundesland ein",
+    "bloodType": "Blutgruppe",
+    "bloodTypePlaceholder": "Auswählen",
+    "height": "Größe",
+    "heightPlaceholder": "cm",
+    "weight": "Gewicht",
+    "weightPlaceholder": "kg",
+    "conditions": "Medizinische Erkrankungen",
+    "conditionsPlaceholder": "Liste alle bestehenden Erkrankungen auf",
+    "allergies": "Allergien",
+    "allergiesPlaceholder": "Liste alle bekannten Allergien auf",
+    "medications": "Aktuelle Medikamente",
+    "medicationsPlaceholder": "Liste die Medikamente auf, die du nimmst",
+    "emergencyContact": "Notfallkontakt",
+    "emergencyContactPlaceholder": "Name und Telefonnummer",
+    "save": "Profil Speichern",
+    "saved": "Profil erfolgreich gespeichert!",
+    "confirmDelete": "Bist du sicher, dass du dein Profil löschen möchtest?",
+    "deleted": "Profil erfolgreich gelöscht!",
+    "securityTitle": "Privatsphäre & Sicherheit",
+    "securityNote": "Alle Profildaten werden für diese Demo lokal auf deinem Gerät gespeichert"
+  },
+  "chat": {
+    "title": "Medizinische Beratung",
+    "subtitle": "KI-gestützter Gesundheitsassistent",
+    "emptyTitle": "Starte Deine Beratung",
+    "emptySubtitle": "Beschreibe deine Symptome oder lade medizinische Bilder hoch für sofortige KI-gestützte Gesundheitseinblicke",
+    "feature1": "Symptome eingeben",
+    "feature2": "Bilder hochladen",
+    "feature3": "Spracheingabe",
+    "feature4": "Sofortige Antwort",
+    "placeholder": "Beschreibe deine Symptome…",
+    "uploadImage": "Bild hochladen",
+    "recordingStart": "Halten zum Aufnehmen",
+    "recordingStop": "Aufnahme...",
+    "imageAttached": "Bild angehängt",
+    "imageReady": "Bereit zum Senden",
+    "send": "Senden"
+  },
+  "cta": {
+    "visit_app": "Besuche unsere App →",
+    "continue": "Setze dein Erlebnis in unserer App fort"
+  },
+  "footer": {
+    "privacy": "Datenschutz",
+    "terms": "Bedingungen",
+    "contact": "Kontakt"
+  },
+  "safetyNotice": "Mediro bietet KI-gestützte Unterstützung und ersetzt nicht die professionelle medizinische Diagnose. Bei Notfällen kontaktiere die örtlichen Notfalldienste."
+}

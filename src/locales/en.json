@@ -1,0 +1,337 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "safety": "Safety",
+    "contact": "Contact",
+    "language": "Language",
+    "login": "Login",
+    "profile": "Profile"
+  },
+
+  "hero": {
+    "title": "Your Trusted AI Medical Assistant.",
+    "subtitle": "Accurate. Secure. Always available to guide your health decisions.",
+    "start": "Start Consultation",
+    "learn": "How Mediro Works"
+  },
+
+  "about": {
+    "title": "About Mediro",
+    "subtitle": "Why trust Mediro for your health",
+    "items": [
+      {
+        "title": "AI-Powered Accuracy",
+        "description": "Advanced machine learning models trained on extensive medical data for accurate assessments.",
+        "icon": "🧠"
+      },
+      {
+        "title": "Medical Safety Standards",
+        "description": "Designed and developed following strict medical safety protocols and regulations.",
+        "icon": "✅"
+      },
+      {
+        "title": "Privacy First",
+        "description": "Your health data is encrypted and protected with enterprise-grade security.",
+        "icon": "🔐"
+      },
+      {
+        "title": "Global Access",
+        "description": "Available 24/7 in multiple languages to serve patients worldwide.",
+        "icon": "🌐"
+      },
+      {
+        "title": "Instant Support",
+        "description": "Get medical guidance immediately without waiting for appointments.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Trusted by Thousands",
+        "description": "Used and trusted by healthcare professionals and patients globally.",
+        "icon": "⭐"
+      }
+    ]
+  },
+
+  "howItWorks": {
+    "title": "How Mediro Works",
+    "subtitle": "Follow these simple steps to get started",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Describe Your Symptoms",
+        "description": "Share your symptoms or upload medical images for analysis.",
+        "icon": "📝"
+      },
+      {
+        "number": "02",
+        "title": "AI Analysis",
+        "description": "Mediro analyzes your inputs using advanced medical AI models.",
+        "icon": "🤖"
+      },
+      {
+        "number": "03",
+        "title": "Get Insights",
+        "description": "Receive medically-guided insights and recommendations instantly.",
+        "icon": "💡"
+      },
+      {
+        "number": "04",
+        "title": "Track & Manage",
+        "description": "Track your health and manage your profile anytime.",
+        "icon": "📊"
+      }
+    ]
+  },
+
+  "features": {
+    "title": "Why Choose Mediro",
+    "subtitle": "Powerful features designed for your health",
+    "items": [
+      {
+        "title": "Symptom Checker",
+        "description": "Accurately analyze and understand your symptoms with AI assistance.",
+        "icon": "🔍"
+      },
+      {
+        "title": "Health Explanations",
+        "description": "Get AI-generated explanations about your health conditions.",
+        "icon": "📚"
+      },
+      {
+        "title": "Voice Consultation",
+        "description": "Describe your symptoms using voice for faster interaction.",
+        "icon": "🎤"
+      },
+      {
+        "title": "Medical Data Security",
+        "description": "Your health data is encrypted and protected with advanced security.",
+        "icon": "🔒"
+      },
+      {
+        "title": "24/7 Availability",
+        "description": "Access medical guidance anytime, anywhere you need it.",
+        "icon": "⏰"
+      },
+      {
+        "title": "Multi-language Support",
+        "description": "Get assistance in your preferred language worldwide.",
+        "icon": "🌍"
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "What People Say About Mediro",
+    "subtitle": "Real experiences from people we've helped",
+    "reviews": [
+      {
+        "author": "Arjun Mehta",
+        "text": "Mediro gave me immediate clarity about my symptoms. The interface is simple and premium.",
+        "role": "Patient",
+        "location": "India",
+        "age": "32",
+        "rating": 5
+      },
+      {
+        "author": "Sofia Martinez",
+        "text": "The image analysis feature is incredibly accurate and helpful!",
+        "role": "Patient",
+        "location": "Spain",
+        "age": "28",
+        "rating": 5
+      },
+      {
+        "author": "Ravi Sharma",
+        "text": "A world-class medical chatbot. Very clean UI and helpful insights.",
+        "role": "Doctor",
+        "location": "India",
+        "age": "45",
+        "rating": 5
+      }
+    ],
+    "stats": {
+      "users": "50K+ Users",
+      "satisfaction": "98% Satisfaction",
+      "stories": "15K+ Success Stories"
+    }
+  },
+
+  "healthNews": {
+    "title": "Latest Health Insights",
+    "subtitle": "Stay informed with the latest medical news and health discoveries",
+    "articles": [
+      {
+        "title": "AI in Healthcare: Transforming Patient Diagnosis",
+        "description": "Recent advances in artificial intelligence are revolutionizing how doctors diagnose diseases, with accuracy rates exceeding traditional methods.",
+        "date": "Dec 5, 2025",
+        "source": "Medical Journal",
+        "url": "#",
+        "category": "AI & Technology"
+      },
+      {
+        "title": "New Guidelines for Heart Health Released",
+        "description": "Leading cardiologists have updated recommendations for preventing heart disease, emphasizing lifestyle modifications and early detection.",
+        "date": "Dec 3, 2025",
+        "source": "WHO",
+        "url": "#",
+        "category": "Cardiology"
+      },
+      {
+        "title": "Telemedicine Adoption Continues to Grow",
+        "description": "Virtual healthcare consultations have become mainstream, with patients reporting high satisfaction rates and improved access to specialists.",
+        "date": "Dec 1, 2025",
+        "source": "Health Today",
+        "url": "#",
+        "category": "Digital Health"
+      }
+    ]
+  },
+
+  "safety": {
+    "badge": "Safety First",
+    "title": "Your Safety is Our Priority",
+    "subtitle": "Understanding when and how to use Mediro responsibly",
+    "importantTitle": "Important Notice",
+    "importantText": "Mediro is an AI-powered health assistant designed to provide general information and guidance. It is NOT a replacement for professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare professionals for medical concerns.",
+    "whenToUseTitle": "When to Use Mediro",
+    "whenToUse": [
+      "General health information and education",
+      "Understanding symptoms and possible causes",
+      "Tracking your health conditions over time",
+      "Preparing questions for your doctor",
+      "Non-emergency health guidance"
+    ],
+    "whenNotToUseTitle": "When NOT to Use Mediro",
+    "whenNotToUse": [
+      "Life-threatening emergencies or severe symptoms",
+      "Chest pain, difficulty breathing, or stroke symptoms",
+      "Severe injuries, bleeding, or trauma",
+      "Allergic reactions or poisoning",
+      "Any condition requiring immediate medical attention"
+    ],
+    "emergencyTitle": "Medical Emergency?",
+    "emergencyText": "Call emergency services immediately",
+    "emergencyNumbers": "911 / 102",
+    "emergencyNote": "US / India emergency numbers",
+    "privacyTitle": "Privacy & Data Security",
+    "privacyPoints": [
+      {
+        "title": "End-to-End Encryption",
+        "description": "All your health data is encrypted and stored securely"
+      },
+      {
+        "title": "HIPAA Compliant",
+        "description": "We follow strict healthcare data protection standards"
+      },
+      {
+        "title": "Your Data, Your Control",
+        "description": "You own your data and can delete it anytime"
+      }
+    ],
+    "disclaimerTitle": "Medical Disclaimer",
+    "disclaimerText": "The information provided by Mediro is for educational purposes only and should not be considered as medical advice. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read on Mediro."
+  },
+
+  "login": {
+    "title": "Welcome to Mediro",
+    "subtitle": "Sign in to access your health profile",
+    "continueWithGoogle": "Continue with Google",
+    "or": "Or continue with",
+    "email": "Email",
+    "phone": "Phone",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "sendOTP": "Send OTP",
+    "sending": "Sending...",
+    "otpSent": "OTP sent successfully!",
+    "otpLabel": "Enter OTP",
+    "otpPlaceholder": "000000",
+    "verify": "Verify & Login",
+    "verifying": "Verifying...",
+    "success": "Login successful!",
+    "invalidOTP": "Invalid OTP. Please try again.",
+    "backToInput": "← Change email/phone",
+    "securityNote": "We'll send a one-time password to verify your identity. Your data is encrypted and secure."
+  },
+
+  "profile": {
+    "title": "Your Profile",
+    "subtitle": "Manage your health information",
+    "personalInfo": "Personal Information",
+    "location": "Location",
+    "healthInfo": "Health Information",
+    "emergency": "Emergency Contact",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "age": "Age",
+    "agePlaceholder": "Enter your age",
+    "gender": "Gender",
+    "genderPlaceholder": "Select gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "email": "Email Address",
+    "emailPlaceholder": "your.email@example.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "country": "Country",
+    "countryPlaceholder": "Enter your country",
+    "state": "State/Province",
+    "statePlaceholder": "Enter your state",
+    "bloodType": "Blood Type",
+    "bloodTypePlaceholder": "Select",
+    "height": "Height",
+    "heightPlaceholder": "cm",
+    "weight": "Weight",
+    "weightPlaceholder": "kg",
+    "conditions": "Medical Conditions",
+    "conditionsPlaceholder": "List any existing conditions",
+    "allergies": "Allergies",
+    "allergiesPlaceholder": "List any known allergies",
+    "medications": "Current Medications",
+    "medicationsPlaceholder": "List medications you're taking",
+    "emergencyContact": "Emergency Contact",
+    "emergencyContactPlaceholder": "Name and phone number",
+    "save": "Save Profile",
+    "saved": "Profile saved successfully!",
+    "confirmDelete": "Are you sure you want to delete your profile?",
+    "deleted": "Profile deleted successfully!",
+    "securityTitle": "Privacy & Security",
+    "securityNote": "All profile data is stored locally on your device for this demo"
+  },
+
+  "chat": {
+    "title": "Medical Consultation",
+    "subtitle": "AI-powered health assistant",
+    "emptyTitle": "Start Your Consultation",
+    "emptySubtitle": "Describe your symptoms or upload medical images for instant AI-powered health insights",
+    "feature1": "Type symptoms",
+    "feature2": "Upload images",
+    "feature3": "Voice input",
+    "feature4": "Instant response",
+    "placeholder": "Describe your symptoms…",
+    "uploadImage": "Upload image",
+    "recordingStart": "Hold to record",
+    "recordingStop": "Recording...",
+    "imageAttached": "Image attached",
+    "imageReady": "Ready to send",
+    "send": "Send"
+  },
+
+  "cta": {
+    "visit_app": "Visit Our App →",
+    "continue": "Continue your experience on our app"
+  },
+
+  "footer": {
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact"
+  },
+
+  "safetyNotice": "Mediro provides AI-assisted guidance and is not a substitute for professional medical diagnosis. For emergencies, contact local emergency services."
+}
