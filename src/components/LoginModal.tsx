@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
+const API_BASE = 'http://localhost:5000'
+
 export default function LoginModal({
   open,
   onClose,
@@ -33,13 +35,20 @@ export default function LoginModal({
           ? { email }
           : { phone }
 
-      const res = await fetch('http://localhost:5000/auth/send-otp', {
+      const res = await fetch(`${API_BASE}/auth/send-otp`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       })
 
-      const data = await res.json()
+      const text = await res.text()
+      let data: any
+
+      try {
+        data = JSON.parse(text)
+      } catch {
+        throw new Error('Backend error while sending OTP')
+      }
 
       if (!res.ok) {
         throw new Error(data.message || 'Failed to send OTP')
@@ -65,22 +74,33 @@ export default function LoginModal({
           ? { email, otp }
           : { phone, otp }
 
-      const res = await fetch('http://localhost:5000/auth/verify-otp', {
+      const res = await fetch(`${API_BASE}/auth/verify-otp`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       })
 
-      const data = await res.json()
+      const text = await res.text()
+      let data: any
+
+      try {
+        data = JSON.parse(text)
+      } catch {
+        throw new Error('Backend returned invalid response')
+      }
 
       if (!res.ok) {
         throw new Error(data.message || 'Invalid OTP')
       }
 
-      // ✅ Save JWT
+      if (!data.token) {
+        throw new Error('JWT token not received from backend')
+      }
+
+      /* ✅ SAVE TOKEN */
       localStorage.setItem('mediro-token', data.token)
 
-      // Optional user info
+      /* Optional user info */
       localStorage.setItem(
         'mediro-user',
         JSON.stringify({
@@ -90,6 +110,8 @@ export default function LoginModal({
           loggedInAt: Date.now()
         })
       )
+
+      console.log('✅ JWT TOKEN SAVED:', data.token)
 
       alert('Login successful')
       onLoginSuccess()
@@ -165,7 +187,7 @@ export default function LoginModal({
               <button
                 onClick={sendOtp}
                 disabled={loading || (method === 'email' ? !email : !phone)}
-                className="w-full bg-mediro text-white py-3 rounded-lg font-semibold"
+                className="w-full bg-mediro text-white py-3 rounded-lg font-semibold disabled:opacity-50"
               >
                 {loading ? 'Sending OTP...' : 'Send OTP'}
               </button>
@@ -179,14 +201,14 @@ export default function LoginModal({
                 type="text"
                 placeholder="Enter OTP"
                 value={otp}
-                onChange={e => setOtp(e.target.value)}
+                onChange={e => setOtp(e.target.value.replace(/\D/g, '').slice(0, 6))}
                 className="w-full px-4 py-3 border rounded-lg text-center tracking-widest"
               />
 
               <button
                 onClick={verifyOtp}
                 disabled={loading || otp.length !== 6}
-                className="w-full bg-mediro text-white py-3 rounded-lg font-semibold"
+                className="w-full bg-mediro text-white py-3 rounded-lg font-semibold disabled:opacity-50"
               >
                 {loading ? 'Verifying...' : 'Verify OTP'}
               </button>
