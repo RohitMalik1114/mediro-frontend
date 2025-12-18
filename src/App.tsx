@@ -11,6 +11,7 @@ import ChatModal from './components/ChatModal'
 import ProfileSidebar from './components/ProfileSidebar'
 import LoginModal from './components/LoginModal'
 import { useTranslation } from 'react-i18next'
+import AuthSuccess from './pages/AuthSuccess'
 
 export default function App() {
   const [chatOpen, setChatOpen] = useState(false)
@@ -43,6 +44,11 @@ export default function App() {
     setSidebarOpen(true)
   }
 
+  // ✅ Handle Google OAuth success redirect
+  if (window.location.pathname === '/auth/success') {
+    return <AuthSuccess />
+  }
+
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-white via-slate-50 to-white dark:from-[#071119] dark:via-[#0a1520] dark:to-[#071119]">
       <Header 
@@ -72,8 +78,6 @@ export default function App() {
         {/* How It Works Section */}
         <section className="relative py-12 sm:py-16 lg:py-20">
           <HowItWorks />
-          
-          {/* Divider */}
           <div className="container mx-auto px-4 sm:px-6 mt-12 sm:mt-16">
             <div className="h-px bg-gradient-to-r from-transparent via-slate-200 dark:via-slate-700 to-transparent"></div>
           </div>
@@ -84,8 +88,6 @@ export default function App() {
           <div className="container mx-auto px-4 sm:px-6">
             <Features />
           </div>
-          
-          {/* Divider */}
           <div className="container mx-auto px-4 sm:px-6 mt-12 sm:mt-16">
             <div className="h-px bg-gradient-to-r from-transparent via-slate-200 dark:via-slate-700 to-transparent"></div>
           </div>
@@ -101,8 +103,6 @@ export default function App() {
         {/* Safety Section */}
         <section className="relative py-12 sm:py-16 lg:py-20">
           <Safety />
-          
-          {/* Divider */}
           <div className="container mx-auto px-4 sm:px-6 mt-12 sm:mt-16">
             <div className="h-px bg-gradient-to-r from-transparent via-slate-200 dark:via-slate-700 to-transparent"></div>
           </div>
@@ -117,21 +117,15 @@ export default function App() {
         <section className="relative py-12 sm:py-20">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-gradient-to-r from-mediro to-teal-600 p-8 sm:p-12 text-center shadow-2xl">
-              {/* Decorative elements */}
-              <div className="absolute top-0 left-0 w-32 h-32 sm:w-40 sm:h-40 bg-white/10 rounded-full blur-2xl"></div>
-              <div className="absolute bottom-0 right-0 w-48 h-48 sm:w-60 sm:h-60 bg-white/10 rounded-full blur-3xl"></div>
-              
               <div className="relative z-10">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4">{t('cta.continue')}</h2>
-                <p className="text-white/90 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto px-4">Experience AI-powered healthcare consultation with 24/7 availability in 6 languages</p>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4">
+                  {t('cta.continue')}
+                </h2>
                 <button 
                   onClick={() => setChatOpen(true)}
-                  className="inline-flex items-center gap-2 sm:gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-white text-mediro font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-sm sm:text-base"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-white text-mediro font-semibold rounded-xl"
                 >
-                  <span>{t('cta.visit_app')}</span>
-                  <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
+                  {t('cta.visit_app')}
                 </button>
               </div>
             </div>
